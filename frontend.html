@@ -1,16 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <meta charset="utf-8">
-   <h1> <title>Web Comic Database</title> </h1>
-  </head>
-  <body>
-    <p>
-        The expected data type is a varchar of up to 20 characters.
-    </p>
-  </body>
-  <a>
-    <input type="text" id="Table" placeholder="Enter User Name"User Name>
-    <button type="button">Submit</button>
-  </a>
+<meta charset="utf-8">
+<form action="/insert.php" method="POST">
+  <input type="text" id="username" placeholder="Enter User Name"User Name name="username" required>
+  <input type="submit">
+</form>
 </html>
